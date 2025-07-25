@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Travel Booking</title>
+</head>
+<body>
+    <h2>Travel Booking Form</h2>
+    <form>
+        Full Name: <input type="text" name="name"><br><br>
+        Contact Info: <input type="tel" name="contact"><br><br>
+        Destination:
+        <select name="destination">
+            <option value="default">default</option>
+            <option value="delhi">Delhi</option>
+            <option value="paris">Paris</option>
+            <option value="london">London</option>
+        </select><br><br>
+        Travel Date: 
+        <input type="date" name="travel_date"><br><br>
+        Number of Travelers: 
+        <input type="number" name="travelers" min="1"><br><br>
+        Travel Class:
+        <input type="radio" name="class" value="economy">Economy
+        <input type="radio" name="class" value="business">Business
+        <input type="radio" name="class" value="first">First Class<br><br>
+        <input type="checkbox" name="insurance"> Add Travel Insurance<br><br>
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>

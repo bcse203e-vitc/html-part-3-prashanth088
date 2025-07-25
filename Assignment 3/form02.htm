@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+    <h2>Register for the Event</h2>
+    <form method="post">
+        Full Name:<br>
+        <input type="text" name="fullname"><br><br>
+        Email: <br>
+        <input type="email" name="email" required><br><br>
+        Phone:<br> <input type="tel" name="phone"><br><br>
+        Gender:
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+        Age Group:
+        <select name="age">
+            <option value="under18">Under 18</option>
+            <option value="18to25">18 to 25</option>
+            <option value="26to40">26 to40</option>
+            <option value="40plus">above 40</option>
+        </select><br><br>
+        Topics of Interest:<br>
+        <input type="checkbox" name="topic" value="tech"> Technology<br>
+        <input type="checkbox" name="topic" value="health"> Health<br>
+        <input type="checkbox" name="topic" value="education"> Education<br><br>
+        Additional Comments:<br>
+        <textarea name="comments" rows="4" cols="40"></textarea><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
